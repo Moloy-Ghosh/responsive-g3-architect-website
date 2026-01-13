@@ -11,6 +11,18 @@
 .dark3{
    color:#727272;
 }
+.or{
+   color:#FF900E;
+}
+.emBtn{
+   padding:20px 24px;
+   background-color:#FF900E;
+   color:#FFFFFF;
+   border:none;
+   border-radius:8px;
+   font-size:1.1rem;
+   font-weight:650px;
+}
 /* Header design */
 header{
    padding: 30px 100px;
@@ -47,15 +59,34 @@ header{
 #arc{
    text-align:center;
 }
-#emBtn{
-   padding:20px 24px;
-   background-color:#FF900E;
-   color:#FFFFFF;
-   border:none;
-   border-radius:8px;
+#hemBtn{
    margin-top:50px;
 }
-
+/* First part of main section design started from here */
+#qlist{
+   display:flex;
+   align-items:center;
+   padding:60px 100px;
+   gap:40px;
+}
+#qimg img{
+   width:100%;
+   border-radius:8px;
+}
+#qimg{
+   display:grid;
+   grid-template-columns:repeat(2,250px);
+   gap:10px;
+}
+#q>*{
+   margin:15px;
+}
+#quh{
+   font-size:2.5rem;
+}
+#qudes{
+   font-size:1rem;
+}
 
 /* Responsive design code started from here */
 @media screen and (max-width: 576px){
@@ -73,7 +104,7 @@ header{
    #bnText{
       font-size:2rem;
    }
-   #emBtn{
+   .emBtn{
       margin-top:25px;
    }
 }
