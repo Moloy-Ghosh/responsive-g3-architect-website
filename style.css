@@ -107,4 +107,12 @@ header{
    .emBtn{
       margin-top:25px;
    }
+   /* First part of main section */
+   #qlist{
+      flex-direction:column;
+      padding:20px 15px;
+   }
+   #qimg{
+      grid-template-columns:repeat(1,100%);
+   }
 }
