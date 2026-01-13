@@ -55,3 +55,25 @@ header{
    border-radius:8px;
    margin-top:50px;
 }
+
+
+/* Responsive design code started from here */
+@media screen and (max-width: 576px){
+   header{
+      padding:20px 20px;
+   }
+   #navbar{
+      flex-direction:column;
+   }
+   #navbar ul{
+      flex-direction:column;
+      text-align:center;
+      padding:0px;
+   }
+   #bnText{
+      font-size:2rem;
+   }
+   #emBtn{
+      margin-top:25px;
+   }
+}
