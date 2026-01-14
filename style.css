@@ -87,6 +87,41 @@ header{
 #qudes{
    font-size:1rem;
 }
+/* Features section design code */
+#features{
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:30px;
+   padding:60px 30px;
+}
+#imgb img{
+   width:100%;
+   border-radius:8px;
+}
+#featureH{
+   font-size:2.2rem;
+   border-left:5px solid #FF900E;
+   padding-left:20px;
+}
+#featureP{
+   font-size:0.6rem;
+}
+.cardH{
+   font-size:1.3rem;
+}
+.card{
+   border-radius:8px;
+   margin-bottom:12px;
+   padding:18px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+}
+#year{
+   font-size:4rem;
+}
+#tenYeaarb{
+   margin-top:-70px;
+   margin-left:-20px;
+}
 
 /* Responsive design code started from here */
 @media screen and (max-width: 576px){
@@ -114,5 +149,17 @@ header{
    }
    #qimg{
       grid-template-columns:repeat(1,100%);
+   }
+   /* Second part of main section */
+   #features{
+      grid-template-columns:repeat(1,1fr);
+      padding:40px 20px;
+   }
+   #year{
+      font-size:2rem;
+   }
+   #tenYeaarb{
+      margin-top:12px;
+      margin-left:0px;
    }
 }
