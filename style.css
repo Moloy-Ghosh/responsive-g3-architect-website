@@ -122,6 +122,42 @@ header{
    margin-top:-70px;
    margin-left:-20px;
 }
+/* Some facts design start */
+#someFacts{
+   padding: 50px 70px;
+}
+#someFactsh{
+   font-size:2.3rem;
+}
+#someFactsdes{
+   font-size:1rem;
+   max-width:500px;
+}
+#boxContainer{
+   padding:50px;
+   display:flex;
+   flex-direction:row;
+   gap:60px;
+}
+.box{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   text-align:center;
+   padding:10px;
+   width:150px;
+   height:150px;
+   border: 2px solid #FF900E;
+   border-radius:8px;
+}
+.box div img{
+   width:42px;
+   height:42px;
+}
+.box div>*{
+   margin:0;
+   padding:0;
+}
 
 /* Responsive design code started from here */
 @media screen and (max-width: 576px){
@@ -162,4 +198,21 @@ header{
       margin-top:12px;
       margin-left:0px;
    }
+   /* Some Facts section */
+   #someFacts{
+      padding: 20px 20px;
+   }
+   #someFactsh{
+      font-size:1.5rem;
+   }
+   #boxContainer{
+      padding:10px;
+      flex-direction:column;
+      gap:20px;
+   }
+   .box div img{
+      width:42px;
+      height:42px;
+   }
+   
 }
